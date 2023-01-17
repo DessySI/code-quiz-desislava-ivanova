@@ -32,6 +32,9 @@ button:hover {
 
 .choices button {
   display: block;
+  width: 30%;
+  text-align: left;
+  list-style: decimal inside none;
 }
 
 input[type="text"] {
@@ -46,13 +49,12 @@ ol {
 
 li {
   padding: 5px;
-  list-style: decimal inside none;
 }
-
+/*
 li:nth-child(odd) {
   background-color: #f3edfc;
 }
-
+*/
 .wrapper {
   margin: 100px auto 0 auto;
   max-width: 600px;
