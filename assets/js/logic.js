@@ -26,7 +26,7 @@ function setTime() {
       }
       
 
-    }, 500);
+    }, 1000);
   }
 
   // present final score page
@@ -94,63 +94,11 @@ li.append(selectBtn);
 selectBtn.textContent = answerElNew[i];
 answersContainerEl.appendChild(li);
 li.style.padding = "0px";
-
-}
-
 }
 }
 }
-
-/*
-function playSounds(event) {
-  var sound=new Audio(); 
-  event.preventDefault();
-  if(answerEl === checkAnswer) {
-    selectBtn.addEventListener('click', playSounds);
-    sound.src = 'assets/sfx/correct.wav'; 
-    sound.play();
-    console.log('Correct!');
-    i++;
-  }else{
-    selectBtn.addEventListener('click', playSounds); 
-    sound.src = 'assets/sfx/incorrect.wav'; 
-    sound.play();
-    console.log('Incorrect!');
-    i++; 
-  }
-  };
-  playSounds();
-
 }
-}
-}
-};
-*/
   startQuestions();
-/*
-document.querySelector('button').addEventListener('click', function() {
-  var context = new AudioContext();
-  // Setup all nodes
-  // ...
-});
-
-var sound = new Audio(); 
-      function playSounds() { 
-        if(questions.question[0].answer[0][2] || questions.question[1].answer[1][3]){
-      selectBtn.addEventListener('click', playSounds);
-      sound.src = 'assets/sfx/correct.wav'; 
-      sound.play();
-      console.log('correct!'); 
-    }else{
-      selectBtn.addEventListener('click', playSounds); 
-      sound.src = 'assets/sfx/incorrect.wav'; 
-      sound.play() 
-    }
-    };
-
-    selectBtn.addEventListener('click', questions.questionTitle); 
- 
-*/
 
 
 
